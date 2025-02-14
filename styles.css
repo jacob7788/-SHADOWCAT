@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #a600ff, #1a1a1a);
+}
+
+.logo {
+    height: 50px;
+}
+
+.wallet-connect {
+    position: relative;
+}
+
+.wallet-connect button {
+    background: #a600ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wallet-connect button:hover {
+    background: #8200cc;
+}
+
+.wallet-dropdown {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: #1a1a1a;
+    border: 1px solid #a600ff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.wallet-dropdown a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.wallet-dropdown a:hover {
+    background: #a600ff;
+}
+
+.wallet-connect:hover .wallet-dropdown {
+    display: block;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('https://example.com/hero-image.jpg') no-repeat center center / cover;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background: #a600ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background: #8200cc;
+}
+
+.buy-section {
+    text-align: center;
+    padding: 30px;
+    background: #1a1a1a;
+}
+
+.buy-section h2 {
+    color: #a600ff;
+}
+
+.buy-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #a600ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.buy-links a:hover {
+    background: #8200cc;
+}
+
+.contract-section {
+    margin-top: 20px;
+}
+
+.contract-section input {
+    width: 400px;
+    max-width: 90%;
+    padding: 10px;
+    border: 1px solid #a600ff;
+    border-radius: 5px;
+}
+
+.contract-section button {
+    background: #a600ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contract-section button:hover {
+    background: #8200cc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a1a1a;
+    color: #a6a6a6;
+}
